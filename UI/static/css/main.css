@@ -28,7 +28,13 @@
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 
+/*#imageCanvas {*/
+/*      cursor: url('/crop.png'), auto;*/
+/*    }*/
 
+ /*#imageCanvas:hover {*/
+ /*       cursor: url('/UI/static/crop.png'), auto;*/
+ /*     }*/
 
 .card-body{
 margin: auto;
