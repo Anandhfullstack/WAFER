@@ -13,7 +13,7 @@ def indexv2():
     return render_template('indexv2.html', show_details=False)
 
 def main():
-    app.run(debug=False, host='0.0.0.0', port=5002)
+    app.run(debug=True, host='0.0.0.0', port=5002)
     # http_server = WSGIServer(('', 5000), app)
     # http_server.serve_forever()
 

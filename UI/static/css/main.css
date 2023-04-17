@@ -24,17 +24,11 @@
   font-family: Montserrat-Bold;
   src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
 }
-
+/*#This changes the cursor to a crosshair when hovering over the image*/
+/*.crosshair {cursor: crosshair;}*/
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 
-/*#imageCanvas {*/
-/*      cursor: url('/crop.png'), auto;*/
-/*    }*/
-
- /*#imageCanvas:hover {*/
- /*       cursor: url('/UI/static/crop.png'), auto;*/
- /*     }*/
 
 .card-body{
 margin: auto;
