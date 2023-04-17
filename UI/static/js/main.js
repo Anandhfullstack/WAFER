@@ -217,9 +217,21 @@
 
              // Add event listener for mouseover event on canvas
     canvas.addEventListener("mouseover", function(event) {
-              // Set cursor image to custom image
-      // canvas.style.cursor = "url('/crop.png'), auto";
-      $(this).css('cursor', 'url("/static/images/crop.png"),auto');
+
+      $(this).css('cursor', 'crosshair');
+
+      //
+      // ctx.drawImage(image, 10, 10);
+      //
+      // ctx.beginPath();
+      // ctx.rect(188, 50, 200, 100);
+      // ctx.fillStyle = 'yellow';
+      // ctx.fill();
+      // ctx.lineWidth = 7;
+      // ctx.strokeStyle = 'black';
+      // ctx.stroke();
+      // alert("hello");
+
     });
     //  canvas.addEventListener("mouseenter", function(event) {
     //   // Set cursor image to custom image
